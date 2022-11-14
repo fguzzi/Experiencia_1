@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    border: solid 2px blue;
+    background-color: blue;
+    width: 1024px;
+}
+
+/* DESKTOP */
+header{
+    background: url("/images/fundo.jpg");
+    width: 1024px;
+    height: 400px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(38, 254, 5);
+}
+
+main{
+    border: solid 1 px rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    width: 1024px;
+     
+}   
+
+main .row1{
+    display: flex;
+    justify-content: center;
+}
+
+main .col{
+    margin: 20px;
+}
+
+section{
+    border: solid 1px purple;
+   background-image: linear-gradient(black, rgb(152, 147, 147));
+    width: 1024px;
+}
+
+footer{
+    border: solid 1px salmon;
+    background-color: salmon;
+    width: 1024px;
+    text-align: center;
+}
+
+
+
+/* TABLET */
+
